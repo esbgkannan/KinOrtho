@@ -1,0 +1,2 @@
+# KinOrtho
+Kinase-ortholog detector
