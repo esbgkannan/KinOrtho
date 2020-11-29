@@ -53,7 +53,7 @@ Please ensure the following software is installed:
 
 ## Updates
 
-* v1.0.0
+* [v1.0.0](https://github.com/esbgkannan/KinOrtho/tree/main/version/v1.0.0/)
 	* The first version of KinOrtho
 
 ## Citation
