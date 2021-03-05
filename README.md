@@ -60,4 +60,4 @@ Please ensure the following software is installed:
 
 To cite our work, please refer to:
 
-> KinOrtho: a combination of full-length and domain-based orthology inference methods for identifying kinase orthologs and illuminating understudied kinases. Liang-Chin Huang, Rahil Taujale, Nathan Gravel, Aarya Venkat, Wayland Yeung, and Natarajan Kannan.
+> KinOrtho: a method for mapping human kinase orthologs across the tree of life and illuminating understudied kinases. Liang-Chin Huang, Rahil Taujale, Nathan Gravel, Aarya Venkat, Wayland Yeung, Dominic P Byrne, Patrick A Eyers, and Natarajan Kannan.
