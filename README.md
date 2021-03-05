@@ -4,10 +4,10 @@
 
 Please ensure the following software is installed:
 
-- `Python (v3.8.3 or later)` [https://www.python.org/downloads/](https://www.python.org/downloads/)
+- `Python (v3.7.4 or later)` [https://www.python.org/downloads/](https://www.python.org/downloads/)
 - `Biopython (v1.75 or later)` [https://biopython.org/wiki/Download/](https://biopython.org/wiki/Download/)
 - `NumPy (v1.18.5 or later)` [https://numpy.org/install/](https://numpy.org/install/)
-- `NCBI BLAST+ (v2.6.0 or later)` [https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.7.1/](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.7.1/)
+- `NCBI BLAST+ (v2.9.0 or later)` [https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.9.0/](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.9.0/)
 - `MCL (v14.137 or later)` [https://micans.org/mcl/](https://micans.org/mcl/)
 
 ## Usage
