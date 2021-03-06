@@ -12,13 +12,10 @@ Please ensure the following software is installed:
 
 ## Usage
 
-* Identify all orthologous relationships without query sequences
-	* **`python kinortho.py <reference_proteomes> [OPTIONS]`**
-		* Example: python kinortho.py ./example/reference_proteomes/
-
 * KinOrtho (Full-length): full-length orthology inference with query sequences
 	* **`python kinortho.py <reference_proteomes> -f <full_length_query_seqs>`**
 		* Example: python kinortho.py ./example/reference_proteomes/ -f ./example/HumanProteinKinase.fasta
+		* Output: [https://github.com/esbgkannan/KinOrtho/tree/main/example/output/domain-based/](https://github.com/esbgkannan/KinOrtho/tree/main/example/output/domain-based/)
 		
 * KinOrtho (Domain-based): domain-based orthology inference with query sequences
 	* **`python kinortho.py <reference_proteomes> -d <domain_based_query_seqs>`**
