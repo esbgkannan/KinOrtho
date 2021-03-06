@@ -15,15 +15,17 @@ Please ensure the following software is installed:
 * KinOrtho (Full-length): full-length orthology inference with query sequences
 	* **`python kinortho.py <reference_proteomes> -f <full_length_query_seqs>`**
 		* Example: python kinortho.py ./example/reference_proteomes/ -f ./example/HumanProteinKinase.fasta
-		* Output: [https://github.com/esbgkannan/KinOrtho/tree/main/example/output/domain-based/](https://github.com/esbgkannan/KinOrtho/tree/main/example/output/domain-based/)
+		* Output: [https://github.com/esbgkannan/KinOrtho/tree/main/example/output/full-length/](https://github.com/esbgkannan/KinOrtho/tree/main/example/output/full-length/)
 		
 * KinOrtho (Domain-based): domain-based orthology inference with query sequences
 	* **`python kinortho.py <reference_proteomes> -d <domain_based_query_seqs>`**
 		* Example: `python kinortho.py ./example/reference_proteomes/ -d ./example/HumanKinaseDomain.fasta`
+		* Output: [https://github.com/esbgkannan/KinOrtho/tree/main/example/output/domain-based/](https://github.com/esbgkannan/KinOrtho/tree/main/example/output/domain-based/)
 
 * KinOrtho (Overlapping): combines the full-length and domain-based orthology inference results
 	* **`python kinortho.py <reference_proteomes> -f <full_length_query_seqs> -d <domain_based_query_seqs>`**
 		* Example: `python kinortho.py ./example/reference_proteomes/ -f ./example/HumanProteinKinase.fasta -d ./example/HumanKinaseDomain.fasta`
+		* Output: [https://github.com/esbgkannan/KinOrtho/tree/main/example/output/overlapping/](https://github.com/esbgkannan/KinOrtho/tree/main/example/output/overlapping/)
 
 ## Options
 
