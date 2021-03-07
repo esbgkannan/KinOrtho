@@ -6,12 +6,12 @@ Please ensure the following software is installed:
 
 - `Python (v3.7.4 or later)` [https://www.python.org/downloads/](https://www.python.org/downloads/)
 	- Instruction: [https://devguide.python.org/](https://devguide.python.org/)
-- `Biopython (v1.75 or later)` [https://biopython.org/wiki/Download](https://biopython.org/wiki/Download)
-- `NumPy (v1.18.5 or later)` [https://numpy.org/install/](https://numpy.org/install/)
 - `NCBI BLAST+ (v2.9.0 or later)` [https://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/](https://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/)
 	- Instruction: [https://www.ncbi.nlm.nih.gov/books/NBK279690/](https://www.ncbi.nlm.nih.gov/books/NBK279690/)
 - `MCL (v14.137 or later)` [https://micans.org/mcl/src/](https://micans.org/mcl/src/)
 	- Instruction: [https://micans.org/mcl/](https://micans.org/mcl/)
+- `Biopython (v1.75 or later)` [https://biopython.org/wiki/Download](https://biopython.org/wiki/Download)
+- `NumPy (v1.18.5 or later)` [https://numpy.org/install/](https://numpy.org/install/)
 
 ## Usage
 
