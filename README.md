@@ -81,7 +81,7 @@ Please ensure the following software is installed:
 12. Relationship_Domain - orthologous relationship between domain 1 and domain 2 (Ortholog/In-paralog/Co-ortholog)
 
 ## Example datasets
-1
+
 * [Reference proteomes](https://github.com/leon1003/KinOrtho/tree/master/example/reference_proteomes/) `(human, mouse, and fruit fly)`
 * [Query sequences (full-length)](https://github.com/leon1003/KinOrtho/blob/master/example/HumanKinaseDomain.fasta) `(545 human protein kinases)`
 * [Query sequences (domain-based)](https://github.com/leon1003/KinOrtho/blob/master/example/HumanProteinKinase.fasta) `(558 human kinase domains)`
