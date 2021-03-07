@@ -47,9 +47,9 @@ Please ensure the following software is installed:
 ## Output format
 
 * KinOrtho (Full-length):
-	1. Species_1 - the proteome file name of protein 1
-	2. Protein_1 - the sequence ID of protein 1
-	3. Species_2 - the proteome file name of protein 2
+	1 Species_1 - the proteome file name of protein 1
+	2 Protein_1 - the sequence ID of protein 1
+	3 Species_2 - the proteome file name of protein 2
 	* 4. Protein_2 - the sequence ID of protein 2
 	* 5. E-value_Full - the E-value of BLAST result (between protein 1 and protein 2)
 	* 6. Weight_Full - the weight between protein 1 and protein 2 in the graph
