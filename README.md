@@ -9,7 +9,7 @@ Please ensure the following software is installed:
 - `NCBI BLAST+ (v2.9.0 or later)` [https://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/](https://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/)
 	- Instruction: [https://www.ncbi.nlm.nih.gov/books/NBK279690/](https://www.ncbi.nlm.nih.gov/books/NBK279690/)
 - `MCL (v14.137 or later)` [https://micans.org/mcl/src/](https://micans.org/mcl/src/)
-	- Instruction: [https://micans.org/mcl/](https://micans.org/mcl/)
+	- Instruction: [https://micans.org/mcl/index.html?sec_license](https://micans.org/mcl/index.html?sec_license)
 - `Biopython (v1.75 or later)` [https://biopython.org/wiki/Download](https://biopython.org/wiki/Download)
 - `NumPy (v1.18.5 or later)` [https://numpy.org/install/](https://numpy.org/install/)
 
