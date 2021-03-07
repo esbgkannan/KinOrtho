@@ -44,6 +44,40 @@ Please ensure the following software is installed:
 * **-e <min_ev>**
 	* Minimal E-value. This value will replace the E-value '0' in BLAST output. (default: 1e-200)
 
+## Output format
+
+* KinOrtho (Full-length):
+	* 1. Species_1 - the proteome file name of protein 1
+	* 2. Protein_1 - the sequence ID of protein 1
+	* 3. Species_2 - the proteome file name of protein 2
+	* 4. Protein_2 - the sequence ID of protein 2
+	* 5. E-value_Full - the E-value of BLAST result (between protein 1 and protein 2)
+	* 6. Weight_Full - the weight between protein 1 and protein 2 in the graph
+	* 7. Relationship_Full - orthologous relationship between protein 1 and protein 2 (Ortholog/In-paralog/Co-ortholog)
+* KinOrtho (Domain-based):
+	* 1. Species_1 - the proteome file name of protein 1
+	* 2. Protein_1 - the sequence ID of protein 1
+	* 3. Domain_1 - the domain region of protein 1 (dom[INDEX]-[START]-[END])
+	* 4. Species_2 - the proteome file name of protein 2
+	* 5. Protein_2 - the sequence ID of protein 2
+	* 6. Domain_2 - the domain region of protein 2 (dom[INDEX]-[START]-[END])
+	* 7. E-value_Domain - the E-value of BLAST result (between domain 1 and domain 2)
+	* 8. Weight_Domain - the weight between domain 1 and domain 2 in the graph
+	* 9. Relationship_Domain - orthologous relationship between domain 1 and domain 2 (Ortholog/In-paralog/Co-ortholog)
+* KinOrtho (Overlapping):
+	* 1. Species_1 - the proteome file name of protein 1
+	* 2. Protein_1 - the sequence ID of protein 1
+	* 3. Domain_1 - the domain region of protein 1 (dom[INDEX]-[START]-[END])
+	* 4. Species_2 - the proteome file name of protein 2
+	* 5. Protein_2 - the sequence ID of protein 2
+	* 6. Domain_2 - the domain region of protein 2 (dom[INDEX]-[START]-[END])
+	* 7. E-value_Full - the E-value of BLAST result (between protein 1 and protein 2)
+	* 8. E-value_Domain - the E-value of BLAST result (between domain 1 and domain 2)
+	* 9. Weight_Full - the weight between protein 1 and protein 2 in the full-length graph
+	* 10. Weight_Domain - the weight between domain 1 and domain 2 in the domain-based graph
+	* 11. Relationship_Full - orthologous relationship between protein 1 and protein 2 (Ortholog/In-paralog/Co-ortholog)
+	* 12. Relationship_Domain - orthologous relationship between domain 1 and domain 2 (Ortholog/In-paralog/Co-ortholog)
+
 ## Example datasets
 
 * [Reference proteomes](https://github.com/leon1003/KinOrtho/tree/master/example/reference_proteomes/) `(human, mouse, and fruit fly)`
