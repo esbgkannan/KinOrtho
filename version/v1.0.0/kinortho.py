@@ -1129,7 +1129,7 @@ if fullseq != "":
             output.write("Co-ortholog")
             b=1
         if key in fpara and b==0:
-            output.write("In_paralog")
+            output.write("In-paralog")
             b=1
         if key in forth and b==0:
             output.write("Ortholog")
@@ -2216,7 +2216,7 @@ if domseq !="":
             output.write("Co-ortholog")
             b=1
         if key in dpara and b==0:
-            output.write("In_paralog")
+            output.write("In-paralog")
             b=1
         if key in dorth and b==0:
             output.write("Ortholog")
@@ -3354,7 +3354,7 @@ if domseq == ""  and fullseq =="":
             output.write("Co-ortholog")
             b=1
         if key in fpara and b==0:
-            output.write("In_paralog")
+            output.write("In-paralog")
             b=1
         if key in forth and b==0:
             output.write("Ortholog")
@@ -3475,20 +3475,20 @@ if fullseq != "" and domseq !="":
         output.write("\t")
         b=0
         if doms[key] in fpara and ftax1[doms[key]]==ftax2[doms[key]]:
-            output.write("In_paralog")
+            output.write("In-paralog")
             b=1
         if doms[key] in fco and b==0 and ftax1[doms[key]]!=ftax2[doms[key]]:
-            output.write("Co_ortholog")
+            output.write("Co-ortholog")
             b=1
         if doms[key] in forth and b==0:
             output.write("Ortholog")
         output.write("\t")
         b=0
         if key in dpara and dtax1[key]==dtax2[key]:
-            output.write("In_Paralog")
+            output.write("In-paralog")
             b=1
         if key in dco and b==0 and dtax1[key]!=dtax2[key]:
-            output.write("Co_ortholog")
+            output.write("Co-ortholog")
             b=1
         if key in dorth and b==0:
             output.write("Ortholog")
@@ -3521,10 +3521,10 @@ if fullseq != "":
         output.write("\t")
         b=0
         if key in fpara and ftax1[key]==ftax2[key]:
-            output.write("In_paralog")
+            output.write("In-paralog")
             b=1
         if key in fco and b==0 and ftax1[key]!=ftax2[key]:
-            output.write("Co_ortholog")
+            output.write("Co-ortholog")
             b=1
         if key in forth and b==0:
             output.write("Ortholog")
@@ -3536,7 +3536,7 @@ if domseq != "":
     output.write("\n")
     output.write("Domain GRAPH")
     output.write("\n")
-    output.write("Species_1\tProtein_1\tDomain_1\tSpecies_2\tProtein_2\tDomain_2\tE-value_Domain\tWeight_Domain\tRelationship_domain")
+    output.write("Species_1\tProtein_1\tDomain_1\tSpecies_2\tProtein_2\tDomain_2\tE-value_Domain\tWeight_Domain\tRelationship_Domain")
     output.write("\n")
     output.write("------------------------------------------------------------------------------------------------------------------------------------------------------------------")
     output.write("\n")
@@ -3564,10 +3564,10 @@ if domseq != "":
         output.write("\t")
         b=0
         if key in dpara and dtax1[key]==dtax2[key]:
-            output.write("In_Paralog")
+            output.write("In-paralog")
             b=1
         if key in dco and b==0 and dtax1[key]!=dtax2[key]:
-            output.write("Co_ortholog")
+            output.write("Co-ortholog")
             b=1
         if key in dorth and b==0:
             output.write("Ortholog")
@@ -3605,10 +3605,10 @@ if fullseq == "" and domseq == "" :
         output.write("\t")
         b=0
         if key in fpara and ftax1[key]==ftax2[key]:
-            output.write("In_paralog")
+            output.write("In-paralog")
             b=1
         if key in fco and b==0 and ftax1[key]!=ftax2[key]:
-            output.write("Co_ortholog")
+            output.write("Co-ortholog")
             b=1
         if key in forth and b==0:
             output.write("Ortholog")
