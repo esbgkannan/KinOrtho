@@ -5,6 +5,7 @@
 Please ensure the following software is installed:
 
 - `Python (v3.7.4 or later)` [https://www.python.org/downloads/](https://www.python.org/downloads/)
+	- test
 - `Biopython (v1.75 or later)` [https://biopython.org/wiki/Download/](https://biopython.org/wiki/Download/)
 - `NumPy (v1.18.5 or later)` [https://numpy.org/install/](https://numpy.org/install/)
 - `NCBI BLAST+ (v2.9.0 or later)` [https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.9.0/](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.9.0/)
