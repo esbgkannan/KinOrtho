@@ -20,7 +20,7 @@ Please ensure the following software is installed:
 		
 * KinOrtho (Full-length): full-length orthology inference with query sequences
 	* **`python kinortho.py -i <reference_proteomes> -f <full_length_query_seqs>`**
-		* Example: python kinortho.py ./example/reference_proteomes/ -f ./example/HumanProteinKinase.fasta
+		* Example: python kinortho.py -i ./example/reference_proteomes/ -f ./example/HumanProteinKinase.fasta
 		* Output: [https://github.com/esbgkannan/KinOrtho/tree/main/example/output/full-length/](https://github.com/esbgkannan/KinOrtho/tree/main/example/output/full-length/)
 		
 * KinOrtho (Domain-based): domain-based orthology inference with query sequences
