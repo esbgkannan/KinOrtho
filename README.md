@@ -10,8 +10,6 @@ Please ensure the following software is installed:
 	- Instruction: [https://www.ncbi.nlm.nih.gov/books/NBK279690/](https://www.ncbi.nlm.nih.gov/books/NBK279690/)
 - `MCL (v14.137 or later)` [https://micans.org/mcl/src/](https://micans.org/mcl/src/)
 	- Instruction: [https://micans.org/mcl/index.html?sec_license](https://micans.org/mcl/index.html?sec_license)
-- `Biopython (v1.75 or later)` [https://biopython.org/wiki/Download](https://biopython.org/wiki/Download)
-- `NumPy (v1.18.5 or later)` [https://numpy.org/install/](https://numpy.org/install/)
 
 ## Usage
 
@@ -103,4 +101,4 @@ Please ensure the following software is installed:
 
 To cite our work, please refer to:
 
-> KinOrtho: a method for mapping human kinase orthologs across the tree of life and illuminating understudied kinases. Liang-Chin Huang, Rahil Taujale, Nathan Gravel, Aarya Venkat, Wayland Yeung, Dominic P Byrne, Patrick A Eyers, and Natarajan Kannan.
+> KinOrtho: a method for mapping human kinase orthologs across the tree of life and illuminating understudied kinases. Liang-Chin Huang, Rahil Taujale, Nathan Gravel, Aarya Venkat, Wayland Yeung, Dominic P Byrne, Patrick A Eyers, and Natarajan Kannan. [Preprint](https://www.biorxiv.org/content/10.1101/2021.03.05.434161v1)
