@@ -57,13 +57,13 @@ Please ensure the following software is installed:
 	* Stop step. Value: {0, 1, 2, 3, 4, 5, 6}. (default: 6)
 
 **Steps:**
-	0: Initiation
-	1: Homology Search
-	2: Building BLAST DB
-	3: All-vs-all Homology Search
-	4: Orthology Inference
-	5: Cluster Analysis
-	6: Combining Results
+0: Initiation.
+1: Homology Search.
+2: Building BLAST DB.
+3: All-vs-all Homology Search.
+4: Orthology Inference.
+5: Cluster Analysis.
+6: Combining Results.
 
 ## Output format
 
