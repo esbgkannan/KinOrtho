@@ -14,45 +14,60 @@ Please ensure the following software is installed:
 ## Usage
 
 * Identify all orthologous relationships without query sequences
-	* **`python kinortho.py <reference_proteomes> [OPTIONS]`**
-		* Example: python kinortho.py ./example/reference_proteomes/
+	* **`python kinortho.py -i <reference_proteomes> [OPTIONS]`**
+		* Example: python kinortho.py -i ./example/reference_proteomes/
 		* Output: [https://github.com/esbgkannan/KinOrtho/tree/main/example/output/no-query/](https://github.com/esbgkannan/KinOrtho/tree/main/example/output/no-query/)
 		
 * KinOrtho (Full-length): full-length orthology inference with query sequences
-	* **`python kinortho.py <reference_proteomes> -f <full_length_query_seqs>`**
+	* **`python kinortho.py -i <reference_proteomes> -f <full_length_query_seqs>`**
 		* Example: python kinortho.py ./example/reference_proteomes/ -f ./example/HumanProteinKinase.fasta
 		* Output: [https://github.com/esbgkannan/KinOrtho/tree/main/example/output/full-length/](https://github.com/esbgkannan/KinOrtho/tree/main/example/output/full-length/)
 		
 * KinOrtho (Domain-based): domain-based orthology inference with query sequences
-	* **`python kinortho.py <reference_proteomes> -d <domain_based_query_seqs>`**
-		* Example: `python kinortho.py ./example/reference_proteomes/ -d ./example/HumanKinaseDomain.fasta`
+	* **`python kinortho.py -i <reference_proteomes> -d <domain_based_query_seqs>`**
+		* Example: `python kinortho.py -i ./example/reference_proteomes/ -d ./example/HumanKinaseDomain.fasta`
 		* Output: [https://github.com/esbgkannan/KinOrtho/tree/main/example/output/domain-based/](https://github.com/esbgkannan/KinOrtho/tree/main/example/output/domain-based/)
 
 * KinOrtho (Overlapping): combines the full-length and domain-based orthology inference results
-	* **`python kinortho.py <reference_proteomes> -f <full_length_query_seqs> -d <domain_based_query_seqs>`**
-		* Example: `python kinortho.py ./example/reference_proteomes/ -f ./example/HumanProteinKinase.fasta -d ./example/HumanKinaseDomain.fasta`
+	* **`python kinortho.py -i <reference_proteomes> -f <full_length_query_seqs> -d <domain_based_query_seqs>`**
+		* Example: `python kinortho.py -i ./example/reference_proteomes/ -f ./example/HumanProteinKinase.fasta -d ./example/HumanKinaseDomain.fasta`
 		* Output: [https://github.com/esbgkannan/KinOrtho/tree/main/example/output/overlapping/](https://github.com/esbgkannan/KinOrtho/tree/main/example/output/overlapping/)
 
 ## Options
 
+* **-i <reference_proteomes>**
+	* The folder of input proteomes (required)
 * **-f <full_length_query_seqs>**
 	* Full-lengt query sequences (FASTA format)
 * **-d <domain_based_query_seqs>**
 	* Domain-based query sequences (FASTA format)
-* **-o <out_file>**
-	* Output file (default: ./results.txt)
+* **-o <out_folder>**
+	* Output folder (default: ./kinortho_out/)
 * **-E <e_value>**
 	* E-value threshld (default: 1e-5)
 * **-t <num_threads>**
 	* Number of threads (default: 1)
-* **-i <inflation_value>**
+* **-I <inflation_value>**
 	* This value handles for affecting cluster granularity. (default: 1.5)
 * **-e <min_ev>**
 	* Minimal E-value. This value will replace the E-value '0' in BLAST output. (default: 1e-200)
+* **-s <start_step>**
+	* Start step. Value: {0, 1, 2, 3, 4, 5, 6}. (default: 0)
+* **-S <stop_step>**
+	* Stop step. Value: {0, 1, 2, 3, 4, 5, 6}. (default: 6)
+
+**Steps:**
+0: Initiation
+1: Homology Search
+2: Building BLAST DB
+3: All-vs-all Homology Search
+4: Orthology Inference
+5: Cluster Analysis
+6: Combining Results
 
 ## Output format
 
-* KinOrtho (Full-length):
+* KinOrtho (Full-length/No-query):
 1. Species_1 - the proteome file name of protein 1
 2. Protein_1 - the sequence ID of protein 1
 3. Species_2 - the proteome file name of protein 2
