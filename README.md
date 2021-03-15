@@ -12,7 +12,12 @@ Please ensure the following software is installed:
 	- Instruction: [https://micans.org/mcl/index.html?sec_license](https://micans.org/mcl/index.html?sec_license)
 
 ## Usage
-		
+
+* Identify all orthologous relationships without query sequences
+	* **`python kinortho.py -i <reference_proteomes> [OPTIONS]`**
+		* Example: python kinortho.py -i ./example/reference_proteomes/
+		* Output: [https://github.com/esbgkannan/KinOrtho/tree/main/example/output/no-query/](https://github.com/esbgkannan/KinOrtho/tree/main/example/output/no-query/)
+
 * KinOrtho (Full-length): full-length orthology inference with query sequences
 	* **`python kinortho.py -i <reference_proteomes> -f <full_length_query_seqs>`**
 		* Example: python kinortho.py -i ./example/reference_proteomes/ -f ./example/HumanProteinKinase.fasta
