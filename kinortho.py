@@ -229,7 +229,7 @@ def filtering(homolog_file, ortholog_file, graph_file, cluster_name, out_file, i
                     protein = index_to_protein[toks[i]]
                     if protein in query_seq_best_hit:
                         group_contain_query_seq[now_group] = ''
-                    elif protein[:protein.rindex('|')] in query_seq_best_hit:
+                    elif '|' in protein and protein[:protein.rindex('|')] in query_seq_best_hit:
                         group_contain_query_seq[now_group] = ''
     
     # Weight between protein 1 and protein 2
@@ -269,8 +269,8 @@ def filtering(homolog_file, ortholog_file, graph_file, cluster_name, out_file, i
         toks = lines[i].rstrip().split('\t')
         protein_1 = toks[0]
         protein_2 = toks[1]
-        domain_1 = protein_1[protein_1.rindex('|')+1:]
-        domain_2 = protein_2[protein_2.rindex('|')+1:]
+        domain_1 = ''
+        domain_2 = ''
         protein1_protein2 = protein_1 + '\t' + protein_2
         protein2_protein1 = protein_2 + '\t' + protein_1
         weight = ''
@@ -285,6 +285,8 @@ def filtering(homolog_file, ortholog_file, graph_file, cluster_name, out_file, i
         group_1 = index_to_group[index_1]
         group_2 = index_to_group[index_2]
         if not is_full_pipeline:
+	    domain_1 = protein_1[protein_1.rindex('|')+1:]
+	    domain_2 = protein_2[protein_2.rindex('|')+1:]
             protein_1 = protein_1[:protein_1.rindex('|')]
             protein_2 = protein_2[:protein_2.rindex('|')]
         species_1 = protein_to_species[protein_1]
