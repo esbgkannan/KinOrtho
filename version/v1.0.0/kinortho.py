@@ -285,8 +285,8 @@ def filtering(homolog_file, ortholog_file, graph_file, cluster_name, out_file, i
         group_1 = index_to_group[index_1]
         group_2 = index_to_group[index_2]
         if not is_full_pipeline:
-	    domain_1 = protein_1[protein_1.rindex('|')+1:]
-	    domain_2 = protein_2[protein_2.rindex('|')+1:]
+            domain_1 = protein_1[protein_1.rindex('|')+1:]
+            domain_2 = protein_2[protein_2.rindex('|')+1:]
             protein_1 = protein_1[:protein_1.rindex('|')]
             protein_2 = protein_2[:protein_2.rindex('|')]
         species_1 = protein_to_species[protein_1]
