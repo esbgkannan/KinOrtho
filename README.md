@@ -25,7 +25,7 @@ pip install kinortho
 ```
 
 **NOTE:** after installation, you can execute kinortho using "kinortho" instead of "python kinortho.py" shown in the Usage section below.
-For example, to identify the orthologs of human protein kinases based on both full-length and domain-based methods, please use the commands below: 
+For example, to identify the orthologs of human protein kinases based on both full-length and domain-based methods, you can use the command below: 
 ```bash
 kinortho -i ./example/reference_proteomes/ -f ./example/HumanProteinKinase.fasta -d ./example/HumanKinaseDomain.fasta
 ```
