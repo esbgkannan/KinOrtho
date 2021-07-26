@@ -12,14 +12,22 @@ Please ensure the following software is installed:
 	- Instruction: [https://micans.org/mcl/index.html?sec_license](https://micans.org/mcl/index.html?sec_license)
 
 ## Installation
+
 PIP is a package manager for Python packages. If you do not have PIP installed, please use the commands below:
 ```bash
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 ```
+
 To install KinOrtho, please use the command below:
 ```bash
 pip install kinortho
+```
+
+**NOTE:** after installation, you can execute kinortho using "kinortho" instead of "python kinortho.py" shown in the Usage section below.
+For example, to identify the orthologs of human protein kinases based on both full-length and domain-based methods, please use the commands below: 
+```bash
+kinortho -i ./example/reference_proteomes/ -f ./example/HumanProteinKinase.fasta -d ./example/HumanKinaseDomain.fasta
 ```
 
 ## Usage
