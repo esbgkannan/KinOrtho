@@ -13,10 +13,11 @@ Please ensure the following software is installed:
 
 ## Installation
 PIP is a package manager for Python packages. If you do not have PIP installed, please use the commands below:
-> **curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py \n python get-pip.py**
+**`curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`**
+**`python get-pip.py`**
 
 To install KinOrtho, please the command below:
-> **pip install kinortho**
+**`pip install kinortho`**
 
 ## Usage
 
