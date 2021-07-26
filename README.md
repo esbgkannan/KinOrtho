@@ -11,6 +11,9 @@ Please ensure the following software is installed:
 - `MCL (v14.137 or later)` [https://micans.org/mcl/src/](https://micans.org/mcl/src/)
 	- Instruction: [https://micans.org/mcl/index.html?sec_license](https://micans.org/mcl/index.html?sec_license)
 
+## Installation
+> pip install kinortho
+
 ## Usage
 
 * Identify all orthologous relationships without query sequences
