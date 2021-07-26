@@ -12,7 +12,7 @@ Please ensure the following software is installed:
 	- Instruction: [https://micans.org/mcl/index.html?sec_license](https://micans.org/mcl/index.html?sec_license)
 
 ## Installation
-> pip install kinortho
+> **pip install kinortho**
 
 ## Usage
 
