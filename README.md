@@ -64,6 +64,14 @@ kinortho -i ./example/reference_proteomes/ -f ./example/HumanProteinKinase.fasta
 		```
 		* Output: [https://github.com/esbgkannan/KinOrtho/tree/main/example/output/overlapping/](https://github.com/esbgkannan/KinOrtho/tree/main/example/output/overlapping/)
 
+* Convert KinOrtho's output into a file with QfO submission format
+	* **`python toqfo.py <kinortho_output>`**
+		* Example:
+		```
+		python toqfo.py ./example/output/overlapping/Results_Overlapping.txt
+		```
+		* Output: [https://github.com/esbgkannan/KinOrtho/blob/main/example/output/overlapping/Results_Overlapping.rels.raw](https://github.com/esbgkannan/KinOrtho/blob/main/example/output/overlapping/Results_Overlapping.rels.raw)
+
 ## Options
 
 * **-i <reference_proteomes>**
