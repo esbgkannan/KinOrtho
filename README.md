@@ -34,7 +34,7 @@ kinortho -i ./example/reference_proteomes/ -f ./example/HumanProteinKinase.fasta
 
 * Identify all orthologous relationships without query sequences
 	* **`python kinortho.py -i <reference_proteomes> [OPTIONS]`**
-		* Example: python kinortho.py -i ./example/reference_proteomes/
+		* Example: ```python kinortho.py -i ./example/reference_proteomes/```
 		* Output: [https://github.com/esbgkannan/KinOrtho/tree/main/example/output/no-query/](https://github.com/esbgkannan/KinOrtho/tree/main/example/output/no-query/)
 
 * KinOrtho (Full-length): full-length orthology inference with query sequences
