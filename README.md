@@ -14,19 +14,19 @@ Please ensure the following software is installed:
 ## Installation
 
 PIP is a package manager for Python packages. If you do not have PIP installed, please use the commands below:
-```bash
+```
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 ```
 
 To install KinOrtho, please use the command below:
-```bash
+```
 pip install kinortho
 ```
 
 **NOTE:** after installation, you can execute kinortho using "kinortho" instead of "python kinortho.py" shown in the Usage section below.
 For example, to identify the orthologs of human protein kinases based on both full-length and domain-based methods, you can use the command below: 
-```bash
+```
 kinortho -i ./example/reference_proteomes/ -f ./example/HumanProteinKinase.fasta -d ./example/HumanKinaseDomain.fasta
 ```
 
@@ -35,9 +35,9 @@ kinortho -i ./example/reference_proteomes/ -f ./example/HumanProteinKinase.fasta
 * Identify all orthologous relationships without query sequences
 	* **`python kinortho.py -i <reference_proteomes> [OPTIONS]`**
 		* Example:
-		``
+		```
 		python kinortho.py -i ./example/reference_proteomes/
-		``
+		```
 		* Output: [https://github.com/esbgkannan/KinOrtho/tree/main/example/output/no-query/](https://github.com/esbgkannan/KinOrtho/tree/main/example/output/no-query/)
 
 * KinOrtho (Full-length): full-length orthology inference with query sequences
